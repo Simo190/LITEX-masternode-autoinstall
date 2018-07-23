@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.ltx'
 COIN_DAEMON='ltxd'
 COIN_CLI='ltx-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/litexcoin/ltx/releases/download/v2.2.0.3/ltx-2.2.0-x86_64-linux-wallet.tar.gz'
+COIN_TGZ='https://github.com/litex-dev/LITEX-Wallet/releases/download/v2.2.0.3/ltx-2.2.0-x86_64-linux-wallet.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='ltx'
 COIN_PORT=17991
@@ -183,8 +183,7 @@ fi
 
 function prepare_system() {
 echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
-echo -e "Installing required packages, it may take some time to finish.${NC}"
-wget https://github.com/smai2018/LITEX-masternode-autoinstall/raw/master/ltx-control.sh && chmod +x ltx-control.sh
+wget https://github.com/litex-dev/LITEX-masternode-autoinstall/raw/master/ltx-control.sh && chmod +x ltx-control.sh
 apt-get update >/dev/null 2>&1
 apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" htop unzip >/dev/null 2>&1
 if [ "$?" -gt "0" ];
