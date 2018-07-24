@@ -27,7 +27,7 @@ This script install the LITEX cold wallet on your VPS, update Ubuntu, creates a 
 ## VPS
 
 ```
-wget https://github.com/smai2018/LITEX-masternode-autoinstall/raw/master/litex-setup.sh && bash litex-setup.sh
+wget https://github.com/litex-dev/LITEX-masternode-autoinstall/raw/master/litex-setup.sh && bash litex-setup.sh
 ```
 
 ## Local wallet
