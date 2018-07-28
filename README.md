@@ -1,6 +1,6 @@
 # LITEX
 
-Shell script to install a [LITEX Masternode](https://litexcoin.io/) on a Linux server running Ubuntu 16.04. Use it on your own risk.
+Shell script to install a [LITEX Masternode](https://ltxcoin.info) on a Linux server running Ubuntu 16.04. Use it on your own risk.
 
 This script install the LITEX cold wallet on your VPS, update Ubuntu, creates a service for the wallet and configures the firewall.
 
