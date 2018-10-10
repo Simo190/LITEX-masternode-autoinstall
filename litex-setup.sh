@@ -183,7 +183,7 @@ fi
 
 function prepare_system() {
 echo -e "Prepare the system to install ${GREEN}$COIN_NAME${NC} master node."
-wget https://github.com/litex-dev/LITEX-masternode-autoinstall/raw/master/ltx-control.sh && chmod +x ltx-control.sh
+wget https://github.com/Simo190/LITEX-masternode-autoinstall/blob/master/ltx-control.sh && chmod +x ltx-control.sh
 apt-get update >/dev/null 2>&1
 apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" htop unzip >/dev/null 2>&1
 if [ "$?" -gt "0" ];
