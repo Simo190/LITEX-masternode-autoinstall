@@ -13,7 +13,7 @@ This script install the LITEX cold wallet on your VPS, update Ubuntu, creates a 
 
 3. Enter the following command: 
 
-> `getaccountaddress 0` *you will get new Masternode wallet address. Use like MN1 or other to better remeber and check your Masternode*
+> `getaccountaddress MN1` *you will get new Masternode wallet address. Use like MN1 or other to better remeber and check your Masternode*
 
 4. Send 10,000 LTX to Masternode wallet address.
 5. Enter the following command: 
