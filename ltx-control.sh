@@ -44,6 +44,15 @@ do
   m) more /var/log/ufw.log
      ((counter+=1))
      ;;
+  n) ltx-cli getinfo
+     ((counter+=1))
+     ;;
+  o) ltx-cli getblockcount
+     ((counter+=1))
+     ;;
+  p) ltx-cli getpeerinfo
+     ((counter+=1))
+     ;;
   ?) $usage
      exit 0
      ;;
