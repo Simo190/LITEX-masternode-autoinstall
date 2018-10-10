@@ -8,7 +8,7 @@ Shell script to upload your previous ltx-control.sh. Use it on your own risk.
 ## VPS
 
 ```
-wget https://raw.githubusercontent.com/Simo190/LITEX-masternode-autoinstall/master/Upload_Ltx-control.sh bash && Upload_Ltx-control.sh
+wget https://raw.githubusercontent.com/Simo190/LITEX-masternode-autoinstall/master/Upload_Ltx-control.sh && bash Upload_Ltx-control.sh
 ```
 
 ## Usage control script:
