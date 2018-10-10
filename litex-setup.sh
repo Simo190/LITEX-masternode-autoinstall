@@ -228,6 +228,5 @@ function setup_node() {
 clear
 checks
 prepare_system
-create_swap
 download_node
 setup_node
