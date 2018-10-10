@@ -52,4 +52,6 @@ wget https://raw.githubusercontent.com/Simo190/LITEX-masternode-autoinstall/mast
 -k firewall status
 -l show ltx.conf
 -m show firewall log
-```
+-n getinfo
+-o getblockcount
+-p getpeerinfo
