@@ -9,7 +9,7 @@ usage="./ltx-control.sh [arguments]"
 VERBOSE=true
 counter="0"
 
-while getopts 'abcdefhklm?' option
+while getopts 'abcdefhklmnop?' option
 do
   case "$option" in
   a) systemctl start ltx.service
