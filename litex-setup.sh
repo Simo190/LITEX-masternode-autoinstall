@@ -21,7 +21,7 @@ NC='\033[0m'
 function download_node() {
   echo -e "Prepare to download $COIN_NAME binaries"
   cd $TMP_FOLDER
-  wget -qO $COIN_TGZ
+  wget -q $COIN_TGZ
   tar xvzf $COIN_ZIP -C /usr/local/bin/
   compile_error
   chmod +x $COIN_PATH$COIN_DAEMON $COIN_PATH$COIN_CLI
