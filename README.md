@@ -35,7 +35,7 @@ wget https://raw.githubusercontent.com/Simo190/LITEX-masternode-autoinstall/mast
 1. Reopen you local wallet
 2. Go to Debug Console and run your masternode:
 
-> `walletpassphrase YourPassword 360` *if you have encrypted your wallet - 360 the time in seconds in which the wallet will be unlocked*
+> `walletpassphrase YourPassword 360` *If you have encrypted your wallet - 360 the time in seconds in which the wallet will be unlocked*
 
 > `startmasternode alias 0 <MN_ALIAS>` *You should see something like this: { "alias" : "MN1", "result" : "successful" }*
 
