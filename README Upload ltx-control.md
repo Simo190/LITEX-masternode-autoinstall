@@ -1,6 +1,6 @@
 # LITEX
 
-Shell script to upload your previus ltx-control.sh. Use it on your own risk.
+Shell script to upload your previous ltx-control.sh. Use it on your own risk.
 
 
 
