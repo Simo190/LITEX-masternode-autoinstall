@@ -50,6 +50,6 @@ wget https://github.com/Simo190/LITEX-masternode-autoinstall/blob/master/litex-s
 -f masternode status
 -h help - usage for this script
 -k firewall status
--l show gossipcoin.conf
+-l show ltx.conf
 -m show firewall log
 ```
